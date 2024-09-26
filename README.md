@@ -1,9 +1,9 @@
 # osm-adiff-parser-saxjs
 
-Parses OSM augmented diff (`.osc` files) and returns elements grouped by changeset ids.
+Parses OSM augmented diff (`.adiff`) files and returns elements grouped by changeset ids.
 
-- Based on the parser in [planet-stream](https://github.com/developmentseed/planet-stream).
-- For the node version, see [osm-adiff-parser](https://github.com/mapbox/osm-adiff-parser).
+> [!WARNING]
+> This package is deprecated. Instead, use [`@osmcha/osm-adiff-parser`](https://www.npmjs.com/package/@osmcha/osm-adiff-parser) v2.0.0 or higher, which works both in Node.js and in browsers.
 
 ## Setup
 
